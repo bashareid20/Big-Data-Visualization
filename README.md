@@ -46,28 +46,4 @@ You can replace this URL with any other dataset for similar visualizations.
 http://127.0.0.1:8050
    ```
 
-## Project Structure
-
-```
-/project-name
-|-- app.py               # Main application script
-|-- requirements.txt     # Python dependencies
-|-- README.md            # Project documentation
-```
-
-## How to Customize
-
-- **Dataset**: Replace the URL in `app.py` with your desired dataset.
-- **Metrics**: Add or modify metrics in the `dcc.Dropdown` options.
-- **Visualizations**: Extend or replace the bar chart with other types of visualizations (e.g., line charts, scatter plots).
-
-## Future Enhancements
-
-- Add support for real-time data streaming.
-- Implement additional visualizations (e.g., maps, heatmaps).
-- Enhance error handling for data loading and preprocessing.
-
-## License
-
-This project is licensed under the MIT License.
 
